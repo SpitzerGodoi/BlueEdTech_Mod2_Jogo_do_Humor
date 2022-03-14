@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, arial;
+}
+
+main {
+  background-image: url(/HTML/assets/img/fundo1.PNG);
+  background-repeat: no-repeat;
+  margin: 2rem 3rem 1rem 3rem;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#nome {
+  display: flex;
+  justify-content: center;
+}
+
+#nome h2 {
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+}
+
+#btn button {
+  color: rgb(255, 123, 0);
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: white;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: solid rgb(255, 123, 0) 2px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+#btn button:hover {
+  color: white;
+  background-color: rgb(255, 123, 0);
+  transition: .6s;
+}
