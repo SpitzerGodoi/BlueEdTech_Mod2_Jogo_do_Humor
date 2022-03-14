@@ -25,6 +25,9 @@ header img {
 }
 
 #goku h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
