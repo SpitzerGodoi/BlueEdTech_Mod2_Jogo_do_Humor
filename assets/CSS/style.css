@@ -18,13 +18,13 @@ header img {
   width: 100%;
 }
 
-#nome {
+#goku {
   display: flex;
   justify-content: center;
   padding: 1rem 3rem 0 3rem;
 }
 
-#nome h2 {
+#goku h2 {
   color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
