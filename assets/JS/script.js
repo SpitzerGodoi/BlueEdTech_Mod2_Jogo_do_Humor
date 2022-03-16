@@ -1,12 +1,12 @@
 const nome = document.getElementById("nome");
-let goku = document.querySelector("goku");
+const goku = document.querySelector("goku");
 let btn = document.querySelector("#btn");
 const img = document.querySelector("#goku");
 
 btn.addEventListener("click", () => {
   if (btn.value == "transformar") {
     nome.innerText = "Super Saiyajin";
-    img.src = "./assets/img/super1.png";
+    img.src = "./assets/img/super1.PNG";
     btn.value = "transformar1";
   } else if (btn.value == "transformar1") {
     nome.innerText = "Super Saiyajin 2";
@@ -26,7 +26,7 @@ btn.addEventListener("click", () => {
     btn.value = "inicio";
   } else {
     nome.innerText = "Son Goku";
-    img.src = "./assets/img/songoku.png";
+    img.src = "./assets/img/songoku.PNG";
     btn.value = "transformar";
   }
 });
