@@ -26,7 +26,7 @@ btn.addEventListener("click", () => {
     btn.value = "inicio";
   } else {
     nome.innerText = "Son Goku";
-    img.src = "./assets/img/sonGokuu.png";
+    img.src = "./assets/img/songoku.png";
     btn.value = "transformar";
   }
 });
