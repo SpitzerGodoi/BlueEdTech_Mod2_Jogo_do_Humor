@@ -20,12 +20,12 @@ header img {
   width: 100%;
 }
 
-#goku {
+div {
   display: flex;
   justify-content: center;
 }
 
-#goku h2 {
+#nome {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -36,18 +36,17 @@ header img {
   margin: 1rem 3rem 0 3rem;
 }
 
-figure {
-  width: 100%;
+#goku{
+  display: flex;
+  justify-content: center;
+}
+
+div {
   display: flex;
   justify-content: center;
 }
 
 #btn {
-  display: flex;
-  justify-content: center;
-}
-
-#btn button {
   color: rgb(255, 123, 0);
   font-size: 2rem;
   font-weight: 600;
@@ -59,7 +58,7 @@ figure {
   cursor: pointer;
 }
 
-#btn button:hover {
+#btn:hover {
   color: white;
   background-color: rgb(255, 123, 0);
   transition: 0.6s;
