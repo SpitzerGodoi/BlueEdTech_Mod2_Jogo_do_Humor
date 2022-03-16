@@ -1,7 +1,6 @@
 const nome = document.getElementById("nome");
-const goku = document.querySelector("goku");
-let btn = document.querySelector("#btn");
-const img = document.querySelector("#goku");
+let btn = document.getElementById("btn");
+const img = document.getElementById("goku");
 
 btn.addEventListener("click", () => {
   if (btn.value == "transformar") {
