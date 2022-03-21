@@ -57,7 +57,7 @@ div {
   transition: 0.1s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #nome {
     font-size: 1.02rem;
   }
